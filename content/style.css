@@ -1,0 +1,149 @@
+#colonne{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#colonne h2{
+    color: #34113D;
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+#article{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.app{
+    height: 100px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    border-left: 10px solid #FD7E50;
+    box-shadow: 10px 10px #F5F4F5;
+}
+.app  input{
+    margin-left: 250px;
+}
+.app h3 {
+    padding-top: 15px;
+    margin-left: 20px;
+    color: #34113D;
+    font-size: 20px;
+}
+.app p{
+    padding-top: 8px;
+    margin-left: 20px;
+    color: #CDC5D0;
+}
+#heure{
+    border: 1px solid #F5F4F5;
+    background-color: #F5F4F5;
+    width: 150px;
+    border-radius: 10px;
+}
+#heure h4{
+    color: #34113D;
+    margin-left: 5px;
+    padding-top: 8px;
+    font-weight: bolder;
+}
+#heure p{
+    color: #CDC5D0;
+    margin-left: 5px;
+}
+#tasks{
+    border: 1px solid #F5F4F5;
+    background-color: #F5F4F5;
+    width: 100px;
+    border-radius: 10px;
+}
+#tasks h4{
+    color: #34113D;
+    margin-left: 5px;
+    padding-top: 8px;
+    font-weight: bolder;
+}
+#tasks p{
+    color: #CDC5D0;
+    margin-left: 5px;
+}
+
+#widget{
+    border: 3px dashed #DED8DF;
+}
+#widget span{
+    border: 1px solid #34113D;
+    background-color: #34113D;
+    margin-top: 5px;
+    border-radius: 50%;
+    color: white;
+}
+#widget p{
+    color: #CDC5D0;
+    margin-left: 5px;
+    padding-top: 20px;
+}
+.apps{
+    height: 100px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    border-left: 10px solid #70367c;
+    box-shadow: 10px 10px #F5F4F5;
+}
+.apps  input{
+    margin-left: 230px;
+}
+.apps h3 {
+    padding-top: 15px;
+    margin-left: 20px;
+    color: #34113D;
+    font-size: 20px;
+}
+.apps p{
+    padding-top: 8px;
+    margin-left: 20px;
+    color: #CDC5D0;
+}
+
+.ap{
+    height: 100px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    border-left: 10px solid #95CFD5;
+    box-shadow: 10px 10px #F5F4F5;
+}
+.ap  input{
+    margin-left: 210px;
+}
+.ap h3 {
+    padding-top: 15px;
+    margin-left: 20px;
+    color: #34113D;
+    font-size: 20px;
+}
+.ap p{
+    padding-top: 8px;
+    margin-left: 20px;
+    color: #CDC5D0;
+}
+#price{
+    display: flex;
+    flex-wrap: wrap
+}
+
+.propos h4 , span{
+    color: #34113D;
+    margin-top: -50px;
+    font-weight: bolder;
+}
+.propos h6{
+    color: #34113D;
+}
+.propos p{
+    color: #CDC5D0;
+}
+.photo img{
+    margin-top: -70px;
+    margin-left: 20px;
+}
