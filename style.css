@@ -28,6 +28,7 @@ section{
  
 }
 
+<<<<<<< HEAD
 #left{
     background-color: pink;
 }
@@ -59,4 +60,27 @@ div .img div{
 .descri{
     text-align: center;
     margin-top: 40px;
+=======
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.list #active:active{
+    font-weight: bolder;
+}
+
+.list li{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+    font-weight: 500;
+>>>>>>> 09d87fad93075779e6f4ad84ba19a0c94cb9f7f0
 }
