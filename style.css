@@ -2,6 +2,7 @@ body{
     width: 100%;
     margin: 0 auto;
     background-color: #cdc6bd;
+    overflow-x: hidden;
 }
 #body{
     position: relative;
@@ -10,24 +11,12 @@ body{
     background-color: #ffffff;
     border-radius: 16px;
     z-index: 1;
+    height: 110vh;
 }
-#Aside{
-    position: absolute;
-    background-color: #fbf5eeaf;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 355px;
-    height: 50px;
-    margin-left: 74%;
-    padding-left: 25px;
-}
-
 
 section{
     border-radius: 25px;
- 
 }
-
 
 #left{
     background-color: #fff;
@@ -87,4 +76,106 @@ div .img div{
     text-decoration: none;
     color: rgb(24, 23, 23);
     font-weight: 500;
+}
+
+#Aside{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.486);
+   /*  border-top-right-radius: 10px; */
+    border-bottom-right-radius: 10px;
+    width: 475px;
+    margin-left: 74%;
+    padding-left: 30px;
+}
+
+
+#Aside h2{
+    font-weight: bold;
+}
+
+#Aside .notification {
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+
+#Aside .notification i{
+    font-size: 1.7em;
+    color: #000;
+    margin-left: 20px;
+}
+
+#Aside .notification .badge {
+    position: relative;
+    top: -14px;
+    right: 10px;
+    font-size: 0.5em;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+#Aside .date{
+    margin-top: 40px;
+}
+
+#Aside .date span{
+font-weight: 100;
+color: #1f1f1f;
+}
+
+#Aside .date i{
+    font-weight: 100;
+    position: relative;
+    font-size: 1.7em;
+    color: #000;
+    margin-left: 45px;
+    top: -14px;
+}
+
+#Aside .heure{
+    margin-top: 20px;
+}
+
+#Aside .heure span{
+    font-family: 'Arial';
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+#Aside .heure  ul li{
+    position: relative;
+    list-style: none;
+    margin-left: -80px;
+    border-left: 3px solid rgb(8, 201, 201);
+    padding-left: 20px;
+}
+
+#Aside .heure #orange ul li{
+    position: relative;
+    list-style: none;
+    margin-left: -80px;
+    border-left: 3px solid rgb(250, 117, 7);
+    padding-left: 20px;
+}
+
+#Aside .heure #violet ul li{
+    position: relative;
+    list-style: none;
+    margin-left: -80px;
+    border-left: 3px solid rgb(90, 2, 90);
+    padding-left: 20px;
+}
+
+#Aside .heure ul #liste1{
+    font-weight: 100;
+    font-size: large;
+}
+
+#Aside .heure ul #liste2{
+    font-weight: 900;
+    font-size: large;
 }
