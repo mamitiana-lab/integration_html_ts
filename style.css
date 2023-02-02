@@ -3,12 +3,12 @@
 }
 #Main{
     background-color: red;
-    border-radius: 10px;
+    border-radius: 16px;
     z-index: 1;
 }
 #Aside{
     position: absolute;
-    background-color: blue;
+    background-color: #fbf5ee;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 355px;
