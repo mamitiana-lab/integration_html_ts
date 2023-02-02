@@ -1,5 +1,5 @@
 body{
-    width: 1290px;
+    width: 100%;
     margin: 0 auto;
     background-color: #cdc6bd;
 }
@@ -30,7 +30,7 @@ section{
 
 
 #left{
-    background-color: pink;
+    background-color: #fff;
 }
 #left h3{
     text-align: center;
@@ -57,7 +57,10 @@ div .img div{
     box-shadow: 1px 2px 2px 1px black;
     
 }
-
+.cont{
+    height: 100vh;
+    border-right: 2px solid gray;
+}
 .descri{
     text-align: center;
     margin-top: 50px;
