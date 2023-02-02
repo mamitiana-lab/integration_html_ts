@@ -48,7 +48,7 @@ div .img{
     padding-top: 100px;
 }
 div .img div{
-    color: black;
+    color: rgba(0, 0, 0, 0.603);
     text-align: center;
     background-color: white;
     width: 80px;
@@ -60,7 +60,7 @@ div .img div{
 
 .descri{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .list{
     list-style-type: none;
