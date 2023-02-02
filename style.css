@@ -60,6 +60,7 @@ div .img div{
 .cont{
     height: 100vh;
     border-right: 2px solid gray;
+    margin-bottom: 30px;
 }
 .descri{
     text-align: center;
