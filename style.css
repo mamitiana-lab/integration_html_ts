@@ -1,5 +1,5 @@
 body{
-    width: 1290px;
+    /* width: 1800px; */
     margin: 0 auto;
     background-color: #cdc6bd;
 }
@@ -10,6 +10,7 @@ body{
     background-color: #ffffff;
     border-radius: 16px;
     z-index: 1;
+    padding-bottom: 20px;
 }
 #Aside{
     position: absolute;
