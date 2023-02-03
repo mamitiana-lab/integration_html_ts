@@ -1,9 +1,5 @@
 body{
-<<<<<<< HEAD
-    /* width: 1800px; */
-=======
     width: 100%;
->>>>>>> 1ddf8d418d08f6f6fb5e1de06c3af4a099f3609f
     margin: 0 auto;
     background-color: #cdc6bd;
     overflow-x: hidden;
@@ -15,11 +11,8 @@ body{
     background-color: #ffffff;
     border-radius: 16px;
     z-index: 1;
-<<<<<<< HEAD
     padding-bottom: 20px;
-=======
     height: 110vh;
->>>>>>> 1ddf8d418d08f6f6fb5e1de06c3af4a099f3609f
 }
 
 section{
