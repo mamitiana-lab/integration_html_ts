@@ -180,26 +180,26 @@ color: #1f1f1f;
     font-size: large;
 }
 /* le barre de recherche */
-.entete{
+/* .entete{
     display: flex;
     justify-content: space-between;
-}
-#today{
+} */
+/* #today{
     color: #cdcfe4;
-}
-#hello{
+} */
+/* #hello{
     color: #34113d;
-}
+} */
 #serch{
     background-color:#f5f4f5 ;
     padding: 10px;
     border-radius: 5px;
     margin-right: 10px;
 }
-#add{
+/* #add{
     border: none;
     background-color: #0e1321;
     color: white;
     border-radius: 5px;
     padding: 7px 15px 7px 15px;
-}
+} */
