@@ -50,12 +50,14 @@ div .img div{
     height: 100vh;
     border-right: 2px solid gray;
     margin-bottom: 30px;
+    
 }
 .descri{
     text-align: center;
     margin-top: 50px;
 }
 .list{
+    margin-top: 30px;
     list-style-type: none;
     display: flex;
     flex-direction: column;
